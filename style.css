@@ -1,0 +1,56 @@
+/* Banner section */
+.container{
+    display: flex;
+    justify-content: center;
+    /* gap: 15px; */
+    
+}
+.banner{
+    margin-top: 50px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.893);
+    border-radius: 30px;
+    /* padding: 15px; */
+    width: 85%;
+    height: 600px;
+
+}
+.left-box{
+    
+    color: white;
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    margin: 20px;
+    
+    
+}
+.left-box h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+.left-box p{
+    
+    font-size: 16px;
+    font-weight: 400;
+}
+.right-box{
+    width: 50%;
+    height: 100%;
+    padding-top: 121px;
+    
+}
+.right-box img{
+    width: 80%;
+    height: 80%;
+}
+.header-button{
+    
+    padding:12px 20px;
+    background-color: #DD0000;
+    ;
+}
+.header-button a{
+    text-decoration: none;
+    color: white;
+}
