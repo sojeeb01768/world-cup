@@ -109,6 +109,9 @@ Banner section
 
 
 }
+/*-----------------
+ Left card section 
+-----------------    */
 
 .card-left {
     background-color: black;
@@ -123,6 +126,7 @@ Banner section
     border-radius: 15px;
     gap: 30px;
     align-items: stretch;
+    
 
 }
 
@@ -139,6 +143,9 @@ Banner section
 #card-btn-3 {
     background-color: red;
 }
+/* ----------------
+right card section
+------------ ----- */
 
 .card-right a {
     text-decoration: none;
@@ -159,6 +166,7 @@ Banner section
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 40px;
+    row-gap: 30px;
 }
 
 

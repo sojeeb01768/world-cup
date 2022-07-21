@@ -93,6 +93,9 @@ Banner section
     margin: 0 auto;
 }
 
+/*-----------------
+ Left card section 
+-----------------    */
 .card-part {
     display: flex;
     gap: 30px;
@@ -140,6 +143,16 @@ Banner section
     background-color: red;
 }
 
+/* ----------------
+right card section
+------------ ----- */
+.image-card{
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    height: 250px;
+    width: 300px;
+}
 .card-right a {
     text-decoration: none;
     border: 1px solid gray;
@@ -149,6 +162,39 @@ Banner section
 
 .right-iamge img {
     margin-bottom: 20px;
+}
+
+.right-iamge {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.right-iamge span {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -40px;
+    color: black;
+    font-weight: 750;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+.match-description{
+    margin-left: 40px;
+    color: #161616;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.match-schedule{
+    margin-left: 70px;
+    margin-top: 10px;
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .watch {
@@ -215,8 +261,8 @@ hr {
 
 }
 
-.icon a{
-   color: white;
+.icon a {
+    color: white;
     font-size: 40px;
     text-decoration: none;
 }
