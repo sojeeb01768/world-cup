@@ -343,6 +343,22 @@ hr {
 
 @media screen and (min-width:577px) and (max-width:768px) {
 
+    .header-button a:hover {
+
+        border-radius: 4px;
+        background-color: none;
+        border: none;
+        color: #FFFFFF;
+        font-size: 28px;
+        padding: 10px 20px;
+        width: 10px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        font-size: 20px;
+
+    }
+
     .card-part {
         display: flex;
         gap: 30px;
@@ -386,7 +402,7 @@ hr {
         display: block;
         margin: 50px;
         border: 1px solid gray;
-        
+
     }
 
     .tab-button a {

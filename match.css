@@ -146,13 +146,14 @@ Banner section
 /* ----------------
 right card section
 ------------ ----- */
-.image-card{
+.image-card {
     border: 1px solid #E8E8E8;
     border-radius: 15px;
     margin-bottom: 25px;
     height: 250px;
     width: 300px;
 }
+
 .card-right a {
     text-decoration: none;
     border: 1px solid gray;
@@ -179,7 +180,8 @@ right card section
     line-height: 20px;
 
 }
-.match-description{
+
+.match-description {
     margin-left: 40px;
     color: #161616;
     font-family: 'Poppins', sans-serif;
@@ -187,7 +189,8 @@ right card section
     font-size: 20px;
     line-height: 30px;
 }
-.match-schedule{
+
+.match-schedule {
     margin-left: 70px;
     margin-top: 10px;
     color: #4D4D4D;
@@ -384,6 +387,22 @@ hr {
 
 @media screen and (min-width:577px) and (max-width:768px) {
 
+    .header-button a:hover {
+
+        border-radius: 4px;
+        background-color: none;
+        border: none;
+        color: #FFFFFF;
+        font-size: 28px;
+        padding: 10px 20px;
+        width: 10px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        font-size: 20px;
+
+    }
+
     .card-part {
         display: flex;
         gap: 30px;
@@ -427,7 +446,7 @@ hr {
         display: block;
         margin: 50px;
         border: 1px solid gray;
-        
+
     }
 
     .tab-button a {
